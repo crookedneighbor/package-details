@@ -1,0 +1,30 @@
+{
+  "name": "package-details",
+  "version": "1.0.0",
+  "description": "Wrapper around npm registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crookedneighbor/package-details.git"
+  },
+  "keywords": [],
+  "author": "Blade Barringer <blade@crookedneighbor>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crookedneighbor/package-details/issues"
+  },
+  "homepage": "https://github.com/crookedneighbor/package-details#readme",
+  "dependencies": {
+    "superagent": "^3.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
+    "sinon": "^3.0.0",
+    "sinon-chai": "^2.12.0"
+  }
+}
